@@ -1,0 +1,5 @@
+{
+  "vue3snippets.enable-compile-vue-file-on-did-save-code": true,
+  "appService.defaultWebAppToDeploy": "undefined/subscriptions/096a6fca-2515-4150-b392-7f557fa8859b/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/lucas-chat-server",
+  "appService.deploySubpath": "server"
+}
