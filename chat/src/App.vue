@@ -1,16 +1,5 @@
 <template>
-  <div>
-    <h1>Socket Chat</h1>
-    <socket-chat />
+  <div id="app">
+    <router-view />
   </div>
 </template>
-
-<script>
-import SocketChat from "./components/SocketChat.vue";
-
-export default {
-  components: {
-    SocketChat,
-  },
-};
-</script>
