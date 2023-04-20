@@ -8,11 +8,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "cors": "^2.8.5",
     "socket.io-client": "^4.6.1",
     "vue": "^3.2.47",
-    "vue-axios": "^3.5.2",
-    "vue-socket.io": "^3.0.10"
+    "vue-router": "^4.1.6",
+    "vuex": "^4.0.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
