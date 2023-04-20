@@ -12,5 +12,17 @@ const socket = io("http://127.0.0.1:3001/", {
         },
       },
     });
+    
+function emitAsync(event, ...args) {
+  return new Promise((resolve, reject) => {
+    socket.emit(event, ...args, (response) => {
+      if (response.error) {
+        reject(response.error);
+      } else {
+        resolve(response.data);
+      }
+    });
+  });
+}
 
 export default socket
